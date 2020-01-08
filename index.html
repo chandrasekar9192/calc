@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+<meta charset=utf-8 />
+<title>calculate</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="./assets/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/style.css'>
+  <script src="./assets/js/script.js"></script>
+
+</head>
+<body>
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="#">CALICULATOR</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			</div>
+		  </nav>
+
+		  <marquee> Calculation Advanced Technology </marquee>
+		  
+	  <div class="calc">
+	<form class ="my" id="myreset">
+	  <div class="box">
+
+		<div class="st">
+		<label>X</label><input type="number" id="firstno"><br>
+		<label>Y</label><input type="number" id="secondno"><br></div>
+		<div class="cbutton">
+		<button type="button" class="btn btn-primary active" id="pls" value="+" onclick="operation('add')"> + </button>
+		<button type="button" class="btn btn btn-secondary" id="plus" value="-" onclick="operation('sub')"> -</button>
+		<button type="button" class="btn btn-danger active" id="plus" value="*" onclick="operation('mul')"> *</button>
+		<button type="button" class="btn btn-warning active" id="plus" value="/" onclick="operation('div')"> /</button>
+		<input type="button" class="btn btn-success active" onclick="clear1()" value="C">
+
+	</div></div>
+<div class="result">
+	<!-- <span id = "one"><p></p></span>
+	<span id = "symb"><p></p></span>
+	<span id = "two"><p></p></span> -->
+	<!-- <span id = "count"><p>=</p></span> -->
+	<span id = "resultHere"></span>
+
+</div></form></div>
+
+</body>
+</html>
